@@ -1,0 +1,123 @@
+body {
+	background-color: #ddd;
+	font-family: 'Libre Baskerville', 'Baskerville', serif;
+}
+
+.banner {
+	padding: 2%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.banner img {
+	max-width: 12%;
+}
+h1{
+	font-size: 2.2rem;
+	font-style: oblique;
+	font-weight: bold;
+}
+
+ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	border: 1.5%;
+	padding-bottom: 3%;
+}
+
+li {
+	font-weight: bolder;
+	font-size: 1.3rem;
+}
+
+h2 {
+	font-size: 1.7rem;
+	padding: 3% 1%;
+	font-weight: bold;
+}
+
+.ods {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 1%;
+	height: auto;
+}
+
+.img_section {
+	max-width: 32%;
+}
+
+.texto {
+	max-width: 60%;
+	font-size: 1.2em;
+	line-height: 1.7em;
+	padding: 2% 1%;
+
+}
+
+#invert {
+	order: -1;
+}
+
+.projetos {
+	padding-left: 1%;
+}
+
+.article_box {
+	display: flex;
+	align-items: center;
+	align-content: space-between;
+	padding: 1%;
+}
+
+.intro_end {
+	padding: 2.2% 1%;
+	font-size: 1.2rem;
+	line-height: 1.7em;
+}
+
+article {
+display: flex;
+flex-flow: column wrap;
+align-items: center;
+width: 31%;
+margin: auto;
+height: fit-content;
+}
+
+h3 {
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+	padding: 1em;
+}
+
+.foto_projetos {
+	width: 250px;
+	height: 250px;
+	margin: auto;
+	text-align: center;
+}
+
+.artigo {
+	text-align: center;
+	line-height: 1.5em;
+	padding: 2%;
+}
+
+article > a {
+	font-size: 1.2rem;
+	padding: 0.5%;
+
+}
+
+.videos {
+	display: flex;
+	justify-content: space-evenly;
+}
+footer {
+	text-align: center;
+	background-color: #bababa;
+}
