@@ -1,23 +1,33 @@
-html {
-	background-image: url(../images/ai.png);
-	opacity: 0.9;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-color: black;
-	color: #fefefe;
+.container {
+	display: grid;
+	background-image: repeating-radial-gradient(#000000, #550060, #250030, #850090);
+}
+
+.links {
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+	left: 1rem;
+	text-align: center;
+	display: flex;
+}
+.buttons {
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+	gap: auto;
+	width: 100%;
 }
 
 .icon {
-	background-color: #a3a3a3;
-	border: solid 0.4em #800080;
-	/* max-height: 75px;
-	max-width: 75px; */
-	border-radius: 25px;
-	padding: 2%;
-}
-
-footer {
-	background-color: #a3a3a3;
-	color: #000;
-
+	min-width: 1em;
+	max-width: 3em;
+	min-height: 1em;
+	max-height: 3em;
+	padding: .4rem;
+	margin: auto;
+	text-align: center;
+	background-color: #d06ad0c2;
+	border: #000000 solid .1em;
+	border-radius: 15px;
 }
