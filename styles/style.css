@@ -1,0 +1,23 @@
+html {
+	background-image: url(../images/ai.png);
+	opacity: 0.9;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: black;
+	color: #fefefe;
+}
+
+.icon {
+	background-color: #a3a3a3;
+	border: solid 0.4em #800080;
+	/* max-height: 75px;
+	max-width: 75px; */
+	border-radius: 25px;
+	padding: 2%;
+}
+
+footer {
+	background-color: #a3a3a3;
+	color: #000;
+
+}
