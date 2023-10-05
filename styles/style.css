@@ -1,6 +1,6 @@
 .container {
-	display: flex;
-	background-image: repeating-radial-gradient(#000000, #550060, #250030, #850090);
+	background-image: repeating-radial-gradient(#000000, #550060, #250030);
+	color: aliceblue;
 }
 
 .links {
