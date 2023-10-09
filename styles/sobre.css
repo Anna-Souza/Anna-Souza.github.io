@@ -1,0 +1,38 @@
+.about {
+display: flex;
+padding-top: 3rem;
+}
+.foto {
+	border-radius: 30%;
+	order: 2;
+}
+.texto_sobre {
+	font-size: 1.5rem;
+	padding-top: 1.6rem;
+	line-height: 2rem;
+}
+.texto_sobre strong {
+	font-size: 1.9rem;
+	font-weight: bolder;
+}
+.texto_sobre b {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.6rem;
+}
+.texto_sobre .hidden {
+	text-decoration: none;
+}
+.texto_sobre a:visited {
+	color: aliceblue;
+}
+
+@media screen and (max-width: 751px) {
+	.about {
+		display: block;
+		text-align: center;
+	}
+	.texto_sobre{
+		padding: 3rem .6rem 5rem .6rem
+	}
+}
