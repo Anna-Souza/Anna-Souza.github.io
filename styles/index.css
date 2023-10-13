@@ -30,6 +30,7 @@ h1 strong {
 
 h1 strong a:link{
 	text-decoration: none;
+	color: aliceblue;
 }
 h1 strong a:visited{
 	text-decoration: none;

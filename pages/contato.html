@@ -7,16 +7,61 @@
 		<title>Ana Souza - Desenvolvimento Web</title>
 		<link rel="stylesheet" href="../styles/reset.css">
 		<link rel="stylesheet" href="../styles/style.css">
+		<link rel="stylesheet" href="../styles/contato.css">
 		<link rel="stylesheet" media="(min-width: 750px)" href="../styles/web_media.css">
 		<link rel="icon" type="image/x-icon" href="../images/Ana_ico.png">
 </head>
 <body class="container">
 	<main class="contact">
-			<h1>Aqui ficarão os links para Download de Currículo, LinkedIn, GitHub, WhatsApp e um formulário de contato!</h1>
-			<div>Os ícones usados neste site foram feitos por <a href="https://www.flaticon.com/br/autores/smashicons" title="Smashicons">Smashicons</a> | <a href="https://www.freepik.com" title="Freepik">Freepik</a> | <a href="https://www.flaticon.com/br/autores/srip" title="srip">Srip</a> e <a href="https://www.flaticon.com/br/autores/slidicon" title="Slidicon">Slidicon.</a> Todos os ícones foram baixados através do site <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a>
-			<a href="https://www.flaticon.com/br/icones-gratis/codificador" title="codificador ícones">Codificador ícones criados por Linector - Flaticon</a>
-			
+		<h1>Fale comigo!</h1>
+		<section class="links_form">
+			<div class="links_redes">
+				<a class="linkedin" href="https://www.linkedin.com/in/souza-anna/" target="_blank"><img class="card" src="../images/linkedin.png" alt="ícone do linkedin"></a>
+				<br>
+				<a class="github" href="https://github.com/Anna-Souza" target="_blank"><img class="card" src="../images/github.png" alt="íconedo Github"></a>
+				<br>
+				<a class="whats" href="https://tinyurl.com/AnnaSouza" target="_blank"><img class="card" src="../images/whatsapp.png" alt="ícone do whatsapp"></a>
+				<br>
+				<a class="curriculo" href="../curriculo.pdf" download> <img class="card" src="../images/pdf.jpg" alt=""></a>
 			</div>
+			
+			<div class="form_contact">
+				<form action="https://formsubmit.co/20563400e0ce0c8f85c33df14a5bc24b" method="POST">
+					<input type="hidden" name="_next" value="http://127.0.0.1:5501/../pages/sucesso.html">
+					<input type="hidden" name="_autoresponse" value="Obrigada pelo contato! Sua mensagem foi recebida e será respondida logo mais.">
+					<input type="hidden" name="_template" value="table">
+					<label for="nome" name="nome">Nome:</label>
+					<input type="text" id="nome" required> <br>
+					<label for="email" name="email">Email:</label>
+					<input type="email" name="email" id="email" required> <br>
+					<label for="assunto" name="assunto">Assunto:</label>
+					<input type="text" name="assunto" id="assunto" required> <br>
+					<label for="mensagem" name="mensagem">Mensagem: <br></label>
+					<textarea name="mensagem" id="mensagem" cols="40" rows="15" required></textarea> <br>
+					<button type="submit">enviar</button>
+				</form>
+			</div>
+
+		</section>
+
+		<section class="credits">
+			<br><br>
+			<p>
+				Hey, não vai embora, não! Dá uma olhada em quem me ajudou neste site:
+			</p>
+			<div class="creditos">Os ícones usados na navegação deste site foram feitos por <a href="https://www.flaticon.com/br/autores/smashicons" title="Smashicons">Smashicons</a> | <a href="https://www.freepik.com" title="Freepik">Freepik</a> | <a href="https://www.flaticon.com/br/autores/srip" title="srip">Srip</a> e <a href="https://www.flaticon.com/br/autores/slidicon" title="Slidicon">Slidicon</a>, todos disponíveis no site <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a>.
+			<br>
+			A imagem da página inicial veio do <a href="https://undraw.co/">undraw.co</a>.
+			<br>
+			O favicon foi feito no <a href="https://cooltext.com/">cooltext.com</a>.
+			<br>
+			As imagens usadas na parte dos projetos "em breve" foram feitas com a IA do <a href="https://pixlr.com/br/">pixlr.com</a>.
+			<br>
+			O formulário é enviado com a ajuda do <a href="https://formsubmit.co/">formsubmit.co</a>.
+			<br>
+			O gif de "sucesso" é do <a href="https://pt.picmix.com/profile/DMF_LEO">DMF_LEO</a>, disponível em <a href="https://pt.picmix.com/">pt.picmix.com</a>.
+
+		</section>
 	</main>
 	
 	<nav class="links">

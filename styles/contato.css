@@ -1,0 +1,78 @@
+h1 {
+	padding: 3% 1%;
+	font-size: 2rem;
+}
+.links_form {
+	display: flex;
+	justify-content: space-around;
+}
+.links_redes {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+}
+.card {
+	border-radius: 10px;
+	height: 88px;
+	width: 242px;
+	padding: 2% 0;
+}
+form {
+	line-height: 2rem;
+	font-size: 1.2rem;
+}
+input {
+	width: 145%;
+	height: 1.2rem;
+}
+textarea {
+	width: 145%;
+}
+
+button {
+	line-height: 2rem;
+	text-transform: uppercase;
+	font-weight: 700;
+	width: 100px;
+}
+p {
+	font-size: 1.3rem;
+	padding: 0 0 1.5rem 0;
+	text-align: center;
+}
+a:visited, a:link{
+	color: aliceblue;
+}
+
+
+@media screen and (max-width: 751px) {
+	h1 {
+		text-align: center;
+		padding-bottom: 8%;
+	}
+	.links_form {
+		width: 100%;
+		display: block;
+		margin: auto;
+		text-align: center;
+	}
+	.card {
+		height: 64px;
+		width: 176px;
+	}
+	form {
+	padding-top: 2rem;
+	}
+	input {
+		width: 90%;
+		height: 1.2rem;
+	}
+	textarea {
+		width: 90%;
+	}
+	.credits {
+	padding-bottom: 6rem;
+	text-align: center;
+	}
+}

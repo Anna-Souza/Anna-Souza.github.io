@@ -22,6 +22,7 @@ padding-top: 3rem;
 }
 .texto_sobre .hidden {
 	text-decoration: none;
+	color: aliceblue;
 }
 .texto_sobre a:visited {
 	color: aliceblue;
