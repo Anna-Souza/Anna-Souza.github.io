@@ -1,0 +1,33 @@
+#accordion {
+  width: 95%;
+  margin:0 auto;
+}
+
+.materia {
+  border:1px solid #008080;
+  border-bottom:none;
+}
+
+ .materia:last-child {
+  border-bottom:1px solid #808080;
+}
+
+.texto_aberto {
+  display:flex;
+  padding:10px; 
+  cursor: pointer;
+}
+
+.title {
+  flex:1;
+}
+
+.abrir {
+  width:20px;
+} 
+
+ .content {
+  padding:10px;
+  display:none;
+  padding:10px;
+} 

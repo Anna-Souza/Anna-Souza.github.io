@@ -1,6 +1,7 @@
 .container {
 	background-image: repeating-radial-gradient(#000000, #550060, #250030);
 	color: aliceblue;
+	background-attachment: fixed;
 }
 
 .links {

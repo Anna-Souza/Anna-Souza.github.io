@@ -7,12 +7,48 @@
 	<title>Ana Souza - Desenvolvimento Web</title>
 	<link rel="stylesheet" href="../styles/reset.css">
 	<link rel="stylesheet" href="../styles/style.css">
+	<link rel="stylesheet" href="../styles/blog.css">
 	<link rel="stylesheet" media="(min-width: 750px)" href="../styles/web_media.css">
 	<link rel="icon" type="image/x-icon" href="../images/Ana_ico.png">
 </head>
 <body class="container">
 	<main class="blog">
-		<h1>Aqui ficarão os textos do blog</h1>
+		<section id="accordion">
+			<div class="materia">
+				<div class="texto_aberto">
+					<img src="../images/github.png" alt="">
+					<div class="title">
+						um título em negrito aqui <br> Aqui, provavelmente, vai ficar a parte do texto sempre visível. É o lugar pra colocar um título e um breve resumo do texto.
+					</div>
+					<span class="abrir">+</span>
+				</div>
+				<div class="content">
+					Este é o texto que fica escondido por padrão e só será visívell quando o sinal "+" for clicado. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, reprehenderit, cum animi reiciendis nesciunt sit enim vel, dolorum excepturi explicabo ipsa commodi odio. A est, optio consectetur quisquam saepe corporis quasi tenetur, vero fugit, iure officia perferendis vel maiores. Asperiores, quas error sapiente ipsum reiciendis harum dolores excepturi. Doloremque, ipsum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio tenetur laudantium possimus nostrum eveniet aspernatur alias ex mollitia saepe exercitationem similique, sunt fuga impedit, illo voluptates ipsum modi ab deleniti. Deleniti, quos fuga nesciunt distinctio eligendi accusantium in minus vel placeat dolor, voluptatibus nisi tenetur odio sed? Ratione, repellendus exercitationem?
+				</div>
+			</div>
+
+    <div class="materia">
+        <div class="texto_aberto">
+            <div class="title">Title 2</div>
+            <span class="abrir">+</span>
+        </div>
+        <div class="content">
+            Content 2
+        </div>
+    </div>
+
+    <div class="materia">
+        <div class="texto_aberto">
+            <div class="title">Title 3</div>
+            <span class="abrir">+</span>
+        </div>
+        <div class="content">
+            lorem200
+        </div>
+    </div>
+
+</section>
+<script src="../blog.js"></script>
 	</main>
 
 	<nav class="links">
