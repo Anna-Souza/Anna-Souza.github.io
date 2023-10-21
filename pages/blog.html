@@ -10,47 +10,62 @@
 	<link rel="stylesheet" href="../styles/blog.css">
 	<link rel="stylesheet" media="(min-width: 750px)" href="../styles/web_media.css">
 	<link rel="icon" type="image/x-icon" href="../images/Ana_ico.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Mate:ital@0;1&display=swap" rel="stylesheet">
+	
 </head>
 <body class="container">
-	<main class="blog">
+	<header>
+		<h1>Blogando Tech</h1>
+	</header>
+
+	<main>
 		<section id="accordion">
-			<div class="materia">
-				<div class="texto_aberto">
-					<img src="../images/github.png" alt="">
-					<div class="title">
-						um título em negrito aqui <br> Aqui, provavelmente, vai ficar a parte do texto sempre visível. É o lugar pra colocar um título e um breve resumo do texto.
+			<article >
+				<div class="visible">
+					<img src="../icon.png" alt="">
+					<div class="artigo">
+						<h2 class="title">teste de título mais longo</h2>
+						<p class="call">teste de chamada: aqui vai ser um resumo sobre o conteúdo/assunto do post. - também pode ser um subtítulo. dá pra escrever várias coisas. no final eu coloco um "clique para ler mais".</p>
 					</div>
-					<span class="abrir">+</span>
 				</div>
-				<div class="content">
-					Este é o texto que fica escondido por padrão e só será visívell quando o sinal "+" for clicado. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, reprehenderit, cum animi reiciendis nesciunt sit enim vel, dolorum excepturi explicabo ipsa commodi odio. A est, optio consectetur quisquam saepe corporis quasi tenetur, vero fugit, iure officia perferendis vel maiores. Asperiores, quas error sapiente ipsum reiciendis harum dolores excepturi. Doloremque, ipsum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio tenetur laudantium possimus nostrum eveniet aspernatur alias ex mollitia saepe exercitationem similique, sunt fuga impedit, illo voluptates ipsum modi ab deleniti. Deleniti, quos fuga nesciunt distinctio eligendi accusantium in minus vel placeat dolor, voluptatibus nisi tenetur odio sed? Ratione, repellendus exercitationem?
+				<span class="open"></span>
+				<p class="hidden">
+					texto Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nam suscipit, voluptas totam maiores, repellat, magnam dicta aperiam doloremque quia accusantium. Veritatis omnis, blanditiis beatae officia ipsam distinctio et at assumenda exercitationem. Veritatis eius enim error debitis blanditiis totam culpa, exercitationem quidem ipsa expedita rem perspiciatis, iusto rerum consequatur odio recusandae laborum facere, temporibus voluptatibus delectus fugiat adipisci. Fugit a accusantium iure id suscipit laboriosam atque nam? Ab quibusdam suscipit necessitatibus cum corrupti possimus deleniti quisquam molestiae omnis optio quos, in blanditiis praesentium. Commodi autem sequi excepturi dolores, iusto maxime reprehenderit eos cupiditate minus laboriosam maiores distinctio consectetur quibusdam sapiente, optio assumenda illum itaque sed recusandae, blanditiis vero sunt adipisci asperiores eum? Autem omnis porro dignissimos facere hic eveniet quasi assumenda. Libero dolor ab voluptatum inventore quisquam ut magnam nemo tempore, aperiam repellendus reiciendis at debitis aspernatur nobis explicabo laudantium accusamus rerum optio ducimus quis? Nulla itaque sit id? Laudantium.
+				</p>
+     		</article>
+			<article >
+				<div class="visible">
+					<img src="../icon.png" alt="">
+					<div>
+						<h2 class="title">teste de título</h2>
+						<p class="call">teste de chamada</p>
+					</div>
 				</div>
-			</div>
-
-    <div class="materia">
-        <div class="texto_aberto">
-            <div class="title">Title 2</div>
-            <span class="abrir">+</span>
-        </div>
-        <div class="content">
-            Content 2
-        </div>
-    </div>
-
-    <div class="materia">
-        <div class="texto_aberto">
-            <div class="title">Title 3</div>
-            <span class="abrir">+</span>
-        </div>
-        <div class="content">
-            lorem200
-        </div>
-    </div>
-
-</section>
-<script src="../blog.js"></script>
+				<span class="open"></span>
+				<p class="hidden">
+					texto
+				</p>
+     		</article>
+			<article >
+				<div class="visible">
+					<img src="../icon.png" alt="">
+					<div>
+						<h2 class="title">teste de título</h2>
+						<p class="call">teste de chamada</p>
+					</div>
+				</div>
+				<span class="open"></span>
+				<p class="hidden">
+           
+				</p>
+     		</article>
+			
+			
+    		</section>
 	</main>
-
+	
 	<nav class="links">
 		<ul class="buttons">
 			<li>
@@ -70,5 +85,6 @@
 			</li>
 		</ul>
 	</nav>
+	<script src="../blog.js"></script>
 </body>
 </html>

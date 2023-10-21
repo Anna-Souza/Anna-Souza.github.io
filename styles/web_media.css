@@ -1,3 +1,7 @@
+:root {
+	font-family: 'Mate', serif;
+}
+
 .container {
 	display: flex;
 	background-image: repeating-radial-gradient(#000000, #550060, #250030, #850090);

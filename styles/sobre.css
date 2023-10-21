@@ -1,3 +1,7 @@
+:root {
+	font-family: 'Mate', serif;
+}
+
 .about {
 display: flex;
 padding-top: 3rem;
