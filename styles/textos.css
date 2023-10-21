@@ -1,0 +1,50 @@
+:root {
+	font-family: 'Mate', serif;
+}
+
+.banner {
+	font-size: 1.7rem;
+	text-align: center;
+	padding-top: 3rem;
+}
+
+.contos {
+	padding: 2%;
+	text-align: justify;
+}
+
+.historia {
+	/* padding-top: 10rem; */
+	font-size: 1.5rem;
+	font-weight: bolder;
+}
+.contos p {
+	font-size: 1.3rem;
+	line-height: 1.8rem;
+	text-indent: 5%;
+
+}
+.respiro {
+	text-align: center;
+}
+#nota {
+	font-size: 1rem;
+	text-align: right;
+}
+a:link, a:visited {
+	color: aliceblue;
+}
+#btn {
+	position: fixed;
+	bottom: 2em;
+	right: 1em;
+	visibility: hidden;
+	text-decoration: none;
+	color: black;
+	font-size: 1.2rem;
+	font-weight: 800;
+	background-color: #d06ad0c2;
+}
+#btn.mostrar {
+	visibility: visible;
+}
