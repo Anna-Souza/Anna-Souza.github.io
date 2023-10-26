@@ -2,7 +2,7 @@ body {
 	display: flex;
 	font-family: 'Mate', serif;
 	flex-direction: column;
-	/* align-items: center; */
+	align-items: center;
 }
 h1 {
 	font-size: 2.5rem;
@@ -21,26 +21,68 @@ h1 {
 	font-weight: bold;
 	padding-bottom: 2rem;
 }
-
-.open {
-  width:20px;
-} 
+.call {
+	font-size: 1.4rem;
+	align-self: center;
+}
 
 .hidden {
   max-height: 0;
   transition: max-height 1s ease-out;
   overflow: hidden;
+  font-size: 1.3rem;
 }
- 
+
 .hidden-transition {
-  max-height: 1500px;
+  max-height: 8000px;
   transition: max-height 3s ease-in;
 } 
-
+p:not(.call) {
+	text-indent: 4%;
+	text-align: justify;
+	line-height: 1.8rem;
+}
 p {
   margin:10px;
 } 
 .artigo {
 	padding: 1rem 0 0 1rem;
+}
+.in_text li {
+	text-indent: 7%;
+	padding: .3rem 0;
+	list-style-type: square;
+	list-style-position: inside;
+	line-height: 1.8rem;
 
+}
+.in_text {
+	padding: 1rem 0;
+}
+figcaption a, figcaption {
+	padding-left: 5%;
+	font-size: .8rem;
+	color: aliceblue;
+	text-decoration: none;
+}
+
+.pic {
+	width: 250px;
+	height: 250px;
+	border-radius: 30px;
+}
+
+#oculto {
+	visibility: hidden;
+}
+
+@media  screen and (max-width: 750px) {
+	main, .visible {
+		display: block;
+		text-align: center;
+	}
+	p:not(.call) {
+	text-indent: none;
+	text-align: center;
+}
 }

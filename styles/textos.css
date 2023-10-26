@@ -14,7 +14,6 @@
 }
 
 .historia {
-	/* padding-top: 10rem; */
 	font-size: 1.5rem;
 	font-weight: bolder;
 }
@@ -22,7 +21,6 @@
 	font-size: 1.3rem;
 	line-height: 1.8rem;
 	text-indent: 5%;
-
 }
 .respiro {
 	text-align: center;
@@ -47,4 +45,13 @@ a:link, a:visited {
 }
 #btn.mostrar {
 	visibility: visible;
+}
+
+@media screen and (max-width:750px) {
+	.contos {
+		padding-bottom: 5rem;
+	}
+	#btn.mostrar {
+	visibility: hidden;
+}
 }
