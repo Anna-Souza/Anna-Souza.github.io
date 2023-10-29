@@ -40,4 +40,8 @@ padding-top: 3rem;
 	.texto_sobre{
 		padding: 3rem .6rem 5rem .6rem
 	}
+	.foto {
+		max-width: 250px;
+		max-height: 250px;
+	}
 }
